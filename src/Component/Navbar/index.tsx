@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
           <img
             src="/assets/Logo.png" 
             alt="JONA Logo"
-            className="ml-6 h-12 w-auto"
+            className="md:ml-6 h-12 w-auto"
           />
         </div>
 
