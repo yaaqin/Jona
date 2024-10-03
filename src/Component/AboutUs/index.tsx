@@ -11,7 +11,7 @@ const AboutUs: React.FC = () => {
     // Gunakan hook untuk bagian kanan (geser dari kanan)
     useGsapScrollTrigger(rightRef, 'right');
   return (
-    <section className="bg-white py-12 font-signika">
+    <section className="bg-white py-12 font-signika px-4">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         {/* Left Section: Text */}
         <div ref={leftRef} className='mb-auto'>

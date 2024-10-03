@@ -22,10 +22,10 @@ const HomeHead: React.FC = () => {
             Temukan dan pesan layanan profesional terbaik melalui Jona. Dari kebersihan hingga perbaikan, kami siap membantu Anda!
           </p>
           <div className="flex space-x-4">
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-8 rounded">
+            <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-4 px-8 rounded-xl">
               Unduh Aplikasi JONA
             </button>
-            <button className="border border-gray-400 text-[#4F3721] hover:bg-gray-200 font-bold py-2 px-8 rounded">
+            <button className="border border-gray-400 text-[#4F3721] hover:bg-gray-200 font-bold py-4 px-8 rounded-xl">
               Lihat Selengkapnya
             </button>
           </div>

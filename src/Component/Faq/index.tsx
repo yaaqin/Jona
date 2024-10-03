@@ -7,7 +7,7 @@ const FAQSection: React.FC = () => {
     // Gunakan hook untuk animasi stagger pada card
     useGsapScrollTrigger(gridRef, 'bottom', {}, { from: 'start', amount: 0.3 });
   return (
-    <section className="bg-white py-12 font-signika">
+    <section className="bg-white py-12 font-signika px-4">
       <div className="container mx-auto text-center">
         {/* Section Heading */}
         <h2 className="text-3xl font-bold mb-4">FAQ</h2>
