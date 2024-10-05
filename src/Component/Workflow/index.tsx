@@ -11,7 +11,7 @@ const WorkFlow: React.FC = () => {
     return (
         <section className="bg-white py-12 font-signika px-4">
             <div className="container mx-auto flex flex-col md:flex-row-reverse gap-8 items-center">
-                <div ref={rightRef} className="mb-auto">
+                <div ref={leftRef} className="mb-auto">
                     <h2 className="text-3xl font-bold mb-4">Cara Kerja</h2>
                     <h3 className="text-xl font-semibold mb-2">Mengapa Memilih Jona?</h3>
                     <p className="text-gray-700">

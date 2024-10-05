@@ -2,14 +2,14 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
   return (
-    <header className="px-6 bg-white border-b border-gray-200 font-signika">
-      <div className="container mx-auto flex justify-between items-center py-4">
+    <header className="px-6 bg-white font-signika z-index-50">
+      <div className="container mx-auto flex justify-between items-center py-2">
         {/* Logo Section */}
         <div className="flex items-center space-x-4">
           <img
             src="/assets/Logo.png" 
             alt="JONA Logo"
-            className="md:ml-6 h-12 w-auto"
+            className="md:ml-6 h-12 md:h-20 w-auto"
           />
         </div>
 

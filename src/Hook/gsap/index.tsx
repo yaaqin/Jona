@@ -39,7 +39,7 @@ const useGsapScrollTrigger = (
             scrollTrigger: {
               trigger: elementRef.current, // Elemen yang memicu animasi
               start: "top 80%", // Mulai animasi saat elemen mencapai 80% dari viewport
-              toggleActions: "play reverse play reverse", // Animasi berjalan saat scroll ke atas/bawah
+              toggleActions: "play none none none", // Animasi berjalan saat scroll ke atas/bawah
               ...options, // Override atau tambahan opsi ScrollTrigger
             },
           }
@@ -58,7 +58,7 @@ const useGsapScrollTrigger = (
             scrollTrigger: {
               trigger: elementRef.current, // Elemen yang memicu animasi
               start: "top 80%", // Mulai animasi saat elemen mencapai 80% dari viewport
-              toggleActions: "play reverse play reverse", // Animasi berjalan saat scroll ke atas/bawah
+              toggleActions: "play none none none", // Animasi berjalan saat scroll ke atas/bawah
               ...options, // Override atau tambahan opsi ScrollTrigger dari parameter
             },
           }

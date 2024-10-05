@@ -8,13 +8,15 @@ import FAQSection from '../../Component/Faq'
 
 export default function Home() {
     return (
-        <div className='max-w-screen overflow-hidden'>
-            <Navbar />
+        <div className='max-w-screen overflow-hidden pt-20 z-10'>
+            <section className='fixed top-0 w-full z-50'>
+                <Navbar />
+            </section>
             <HomeHead />
             <OurService />
             <AboutUs />
-            <WorkFlow/>
-            <FAQSection/>
+            <WorkFlow />
+            <FAQSection />
         </div>
     )
 }
